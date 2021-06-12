@@ -12,4 +12,4 @@ I have divided the project into three parts namely:
  
 3. Coloured Image Dehazing Using SKWGIF
  I have implemented image dehazing for coloured images using SKWGIF and Dark Channel Prior. Instead of using Laplacian matrix to refine the haze transmission map, I simply
- use WGIF to filter the raw transmission map under the guidance of the hazy image. The code uses Dark Channel Function, AtmLight Function, Transmission Refine and Recovery         function along with SKWGIF function for guided image filtering. The results come out with a large amount of haze removed and visually similar to the original method while being a  simpler algorithm and with less overhead.
+ use WGIF to filter the raw transmission map under the guidance of the hazy image. The code uses Dark Channel Function, AtmLight Function, Transmission Refine and Recovery         function along with SKWGIF function for guided image filtering. The results come out with a large amount of haze removed and visually similar to the original method while being a  simpler algorithm and less overhead.
